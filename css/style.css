@@ -34,7 +34,6 @@
 .nav ul {
     display: flex;
     list-style: none;
-    height: 50px;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
@@ -459,9 +458,15 @@ h2{
     font-weight: bolder;
     background-color:gray;
     color: white;
-    width: 490px;
+    width: 500px;
     padding-left: 5px;
     border-radius: 7px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: 0;
+
 }
 
 .container-principal-club {
@@ -520,16 +525,16 @@ h2{
 
 .contenedor-img {
     display: flex;
+    justify-content: center;
+    margin: 20px auto 0; /* Margen superior de 20px, margen horizontal automático y margen inferior de 0 */
+    overflow: hidden;
 }
 
 .contenedor-img img {
-    flex: 1;
-    width: auto;
-    max-width: 50%;
-    height: auto;
-    margin-right:  6px;
+    max-width: calc(50% - 10px);
+    border-radius: 10px;
+    margin: 0 5px;
 }
-
 
 /* seccion tienda */
 .contenedor-tienda img {
