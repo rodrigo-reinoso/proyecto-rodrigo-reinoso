@@ -473,6 +473,12 @@ h2{
 .container-principal-club  p{
     text-align: justify;
 }
+.contenido-club {
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
 .iframe-container {
     display: flex;
     flex-direction: row;
@@ -514,11 +520,16 @@ h2{
 
 .contenedor-img {
     display: flex;
-    position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
-    justify-content: space-evenly
 }
+
+.contenedor-img img {
+    flex: 1;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    margin-right:  6px;
+}
+
 
 /* seccion tienda */
 .contenedor-tienda img {
