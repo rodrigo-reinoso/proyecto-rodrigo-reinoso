@@ -231,7 +231,7 @@ body {
 .carousel-item img {
     display: flex;
     width: 100%;
-    height: 600px;
+    height: auto;
     border-radius: 7px;
     justify-content: space-evenly;
 }
@@ -266,7 +266,7 @@ body {
 
 .imagen-parrafo img {
     max-width: 100%;
-    height: 800px;
+    height: auto;
     border-radius: 7px;
     gap: 20px;
 }
