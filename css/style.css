@@ -526,7 +526,10 @@ h2{
 
 /* seccion contacto */
 .fondo-contenedor{
-    background-color: #403d39;
+    background-image:url(../recursos/contacto/estadio.jpg) ;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     border-radius: 7px !important;
     padding-bottom: 25px;
 }
